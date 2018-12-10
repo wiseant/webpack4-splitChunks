@@ -1,0 +1,1 @@
+rar a -ag -r -x*\.git -x*\dist -x*\node_modules -xpackage-lock.json -x*.log -x*.rar -x*.zip -x*.7z webpack-splitchunks-.rar
