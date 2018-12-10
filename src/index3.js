@@ -1,4 +1,12 @@
 import lodash from 'lodash'
+import a from './A-module';
+import f from './F-module';
+import h from './H-module';
+import(/* webpackChunkName: "async-c" */ './C-module');
+
+a();
+f();
+h();
 
 console.log('加载index3.js...')
 

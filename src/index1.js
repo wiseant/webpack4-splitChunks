@@ -1,5 +1,14 @@
 import axios from "axios"
 import lodash from 'lodash'
+import a from './A-module';
+import f from './F-module';
+import g from './G-module';
+import(/* webpackChunkName: "async-b" */ './B-module');
+import(/* webpackChunkName: "async-c" */ './C-module');
+
+a();
+f();
+g();
 
 console.log('加载index1.js...')
 
